@@ -13,6 +13,7 @@ describe "The welcome demo" do
     caps['os_version'] = '7'
     caps['browser'] = 'chrome'
     caps['browserstack.local'] = true
+    caps['browserstack.localIdentifier'] = ENV['BROWSERSTACK_LOCAL_IDENTIFIER']
     caps['browserstack.debug'] = true
     caps['build'] = 'Bitbucket Pipeline'
     caps['name'] =  'test'
