@@ -7,7 +7,7 @@ describe "The welcome demo" do
 
   before(:all) do
     browserstack_user = ENV['BROWSERSTACK_USER']
-    browserstack_key = ENV['BROWSERSTACK_ACCESSKEY']
+    browserstack_key = ENV['BROWSERSTACK_ACCESS_KEY']
     caps = Selenium::WebDriver::Remote::Capabilities.new
     caps['os'] = 'windows'
     caps['os_version'] = '7'
