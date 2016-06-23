@@ -11,6 +11,7 @@ addons:
   browserstack:
     username: browserstackrunn1
     access_key: 5njsGyzgj6JV2hwyHutq
+  firefox: "39.0"
 
 script:
   - bundle install
