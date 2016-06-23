@@ -9,11 +9,8 @@ env:
 # new Travis DSL
 addons:
   browserstack:
-    username: browserstackrunn1
-    access_key: 5njsGyzgj6JV2hwyHutq
-  browserStack:
-    username: browserstackrunn1
-    access_key: 5njsGyzgj6JV2hwyHutq
+    - username: browserstackrunn1
+    - access_key: 5njsGyzgj6JV2hwyHutq
   firefox: "39.0"
 
 script:
