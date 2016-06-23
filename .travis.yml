@@ -1,16 +1,12 @@
 language: ruby
 rvm: 2.1
 
-env:
-  global:
-    - BROWSERSTACK_USER=browserstackrunn1
-    - BROWSERSTACK_ACCESS_KEY=5njsGyzgj6JV2hwyHutq
-
 # new Travis DSL
 addons:
   browserstack:
-    - username: browserstackrunn1
-    - access_key: 5njsGyzgj6JV2hwyHutq
+    username: browserstackrunn1
+    access_key: 5njsGyzgj6JV2hwyHutq
+    
   firefox: "39.0"
 
 script:
