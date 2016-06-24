@@ -7,8 +7,9 @@ addons:
   browserstack:
     username: browserstackrunn1
     access_key: 5njsGyzgj6JV2hwyHutq
-    
-  firefox: "39.0"
+    local_identifier: 123
+    force: true
+    only_automate: true
 
 script:
   - bundle install
